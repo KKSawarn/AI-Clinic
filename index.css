@@ -1,0 +1,93 @@
+h3{
+	color: white;
+	font-size: 2em;
+	
+}
+p{
+	font-size: 1.8em;
+}
+.logo{
+	margin-top: 1em;
+	margin-left: 1em;
+
+}
+@charset "utf-8";
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.align{
+	margin-left: -56px;
+    margin-top: 1px;
+}
+.menu ul>li{margin: 0em 3em 0em 3em;}
+.menu ul{
+	list-style: none;
+	position: relative;
+}
+
+.menu ul li{
+	background-color:rgb(77,42,79);
+	width: 20vh;
+	height: 7vh;
+	line-height: 7vh;
+	border-radius: 2em;
+	text-align: center;
+	float: left;
+	position: relative;
+}
+.menu ul li a
+{
+	text-decoration: none;
+	color: #F2F2F2;
+	display: block;	
+}
+.menu ul li a:hover
+ {
+ 	color: black;
+}
+.menu ul ul{
+	position: absolute;
+	display: none;
+}
+
+.menu ul li:hover>ul
+{
+	display: block;
+	color: black;
+}
+body{
+	background-color: #686466;
+}
+.lower ul li{
+margin-top: 22%;
+margin-left: 4.5%;
+float: left;
+
+	}
+	h4{
+		color: rgb(77,42,79);
+
+	}
+.address{
+background: white;
+		margin-left: 10%;
+		margin-top: 45%; 
+		margin-bottom: 5%;
+		margin-right: 10%;
+		text-align: justify;
+	}
+.address h4{
+	font-size: 1.5em;
+	margin-left: 8%;
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+.about{
+	margin-top: 55%;
+	margin-left: 10%;
+	margin-bottom: 2%;
+	margin-right: 10%;
+	text-align: justify;
+	background: white;
+}
